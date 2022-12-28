@@ -1,0 +1,10 @@
+ebean:
+  dbSchema: my_app  # use this schema rather than public
+  migration:
+    run: false    
+
+datasource:
+  db:
+    username: sa
+    password: sa
+    url: jdbc:sqlite:myapp
